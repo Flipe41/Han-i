@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestTorreHanoi {
@@ -7,6 +8,7 @@ public class TestTorreHanoi {
         TorreHanoi torre = new TorreHanoi();
         torre.hanoi(3, 'A', 'C', 'B');
         assertEquals(7, torre.getMovimentos());
+        torre.imprimirMovimentos(); // Adicionando a chamada para imprimirMovimentos()
     }
 
     @Test
@@ -14,5 +16,6 @@ public class TestTorreHanoi {
         TorreHanoi torre = new TorreHanoi();
         torre.hanoi(4, 'A', 'C', 'B');
         assertEquals(15, torre.getMovimentos());
+        torre.imprimirMovimentos(); // Adicionando a chamada para imprimirMovimentos()
     }
 }

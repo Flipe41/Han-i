@@ -13,4 +13,7 @@ public class TorreHanoi {
     public int getMovimentos() {
         return movimentos;
     }
+    public void imprimirMovimentos() {
+        System.out.println("Total de movimentos: " + movimentos);
+    }
 }
