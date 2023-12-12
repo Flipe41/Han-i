@@ -9,5 +9,8 @@
         <module name="hanoi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seu_artifact" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
